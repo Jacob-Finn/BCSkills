@@ -1,0 +1,23 @@
+.c-intro {
+  height: 45rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__title {
+    color: red;
+    position: relative;
+    font-size: 4.5rem;
+    line-height: 1.2;
+    letter-spacing: .15rem;
+  }
+  &__background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    -webkit-clip-path: polygon(100% 0, 100% 97%, 50% 100%, 0 97%, 0 0);
+    clip-path: polygon(100% 0, 100% 97%, 50% 100%, 0 97%, 0 0);
+  }
+}
